@@ -16,8 +16,7 @@ import saintFameImage from './images/saint-fame.svg'
 import pieDaoImage from './images/pie-dao.png'
 import valtechImage from './images/valtech.png'
 import pNetworkImage from './images/pnetwork.png'
-import nucypherDaoImage from './images/nucypher.svg'
-import nucypherIbexImage from './images/nucypher-ibex.png'
+import cryptokekImage from './images/cryptokek.svg'
 
 const TEMPLATE_DEMOCRACY = 'Democracy'
 const TEMPLATE_REPUTATION = 'Reputation'
@@ -147,11 +146,11 @@ export const KnownOrganizations = {
         template: null,
       },
       {
-        address: '0x7809e69Cf83Fcb768dA9E7A698EDC9f159b7D6f4',
-        domain: 'nucypherdao.aragonid.eth',
-        image: nucypherDaoImage,
-        name: 'NuCypher DAO',
-        template: null,
+        address: '0x3fa400483487A489EC9b1dB29C4129063EEC4654',
+        domain: 'cryptokek.eth',
+        image: cryptokekImage,
+        name: 'cryptokek',
+        template: TEMPLATE_COMPANY,
       },
     ].map(org => [org.address.toLowerCase(), org])
   ),
@@ -202,13 +201,6 @@ export const KnownOrganizations = {
         domain: 'pnetwork.aragonid.eth',
         image: pNetworkImage,
         name: 'pNetwork',
-        template: null,
-      },
-      {
-        address: '0x6781aa0CA10d409010d169C9598AC89F2446F2A5',
-        domain: 'ibex.aragonid.eth',
-        image: nucypherIbexImage,
-        name: 'NuCypher IBEX Tesnet DAO',
         template: null,
       },
     ].map(org => [org.address.toLowerCase(), org])
